@@ -10,11 +10,9 @@ Windows server 2016/2019從評估板升級到完整版
 啟用過程：
 
 1、(以管理員身份執行)執行->CMD->輸入“DISM /online /Get-CurrentEdition”，看你的當前版本
-
-如果是評估版，例如Standard，把“ServerStandardEval”中的Eval這四個字母去掉，就是你的當前版本。
-</code></pre><p><img src="                .png" alt="                  .png" title="                        .png"></p></div>
-
-
+</code></pre><p><img src="https://i.ibb.co/VtF56p7/Virtual-Box-Server2019-13-08-2021-13-54-13.png" alt="Virtual-Box-Server2019-13-08-2021-13-49-00.png" title="                   Virtual-Box-Server2019-13-08-2021-13-49-00.png"></p></div>
+如果是評估版，例如Standard，把“ServerStandardEval”中的Eval這四個字母去掉，就是你的當前版本。我以這Windows Server 2019 Datacenter版的例子，如果是其他版本，需要替换掉对应的key和Edition，运行结果如
+</code></pre><p><img src="https://i.ibb.co/8YbVq5s/Virtual-Box-Server2019-13-08-2021-13-54-26.png" alt="Virtual-Box-Server2019-13-08-2021-13-49-00.png" title="                   Virtual-Box-Server2019-13-08-2021-13-49-00.png"></p></div>
 
 
 
@@ -30,7 +28,7 @@ Windows server 2016/2019從評估板升級到完整版
 
 </p><p>Windows Server 2019評估轉換為Windows Server 2019標準：：</p><pre><code>dism /online /set-edition:ServerStandard /productkey: N69G4-B89J2-4G8F4-WWYCC-J464C /accepteula
 </code></pre><p>Windows Server 2019評估轉換為Windows Server 2019 Datacenter版本：</p><pre><code>dism /online /set-edition:ServerDatacenter /productkey:WMDGN-G9PQG-XVVXX-R3X43-63DFG /accepteula
-</code></pre><p><img src="                      .png" alt="         .png" title="                  .png"></p></div>
+</code></pre><p><img src=" https://i.ibb.co/7bT9VSW/Virtual-Box-Server2019-13-08-2021-14-00-02.png" alt="         .png" title="                  .png"></p></div>
         </div>
 
 
