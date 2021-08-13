@@ -13,8 +13,21 @@ Windows server 評估版本只能試用180天，到期後，系統啟用前每�
 1、(以管理員身份執行)執行->CMD->輸入“DISM /online /Get-CurrentEdition”，看你的當前版本
 
 如果是評估版，例如Standard，把“ServerStandardEval”中的Eval這四個字母去掉，就是你的當前版本。
+</code></pre><p><img src="                .png" alt="                  .png" title="                        .png"></p></div>
 
-2、然後輸入“DISM /online /Set-Edition:ServerStandard /ProductKey:XXXXX-XXXXX-XXXXX-XXXXX-XXXXX /AcceptEula”。 
+
+
+
+
+2、然後輸入“DISM /online /Set-Edition:ServerStandard /ProductKey:XXXXX-XXXXX-XXXXX-XXXXX-XXXXX /AcceptEula”，
+
+
+
+
+</p><p>Windows Server 2019評估轉換為Windows Server 2019標準：：</p><pre><code>dism /online /set-edition:ServerStandard /productkey: N69G4-B89J2-4G8F4-WWYCC-J464C /accepteula
+</code></pre><p>Windows Server 2019評估轉換為Windows Server 2019 Datacenter版本：</p><pre><code>dism /online /set-edition:ServerDatacenter /productkey:WMDGN-G9PQG-XVVXX-R3X43-63DFG /accepteula
+</code></pre><p><img src="                      .png" alt="         .png" title="                  .png"></p></div>
+        </div>
 
 
 這裡的ServerStandard就是我查出來的EDITION ID（注意你實際查出來是什麼就填寫什麼），ProductKey後面的序列號見附錄。
