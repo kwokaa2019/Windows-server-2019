@@ -28,10 +28,14 @@ Windows server 2016/2019從評估板升級到完整版
 
 </p><p>Windows Server 2019評估轉換為Windows Server 2019標準：：</p><pre><code>dism /online /set-edition:ServerStandard /productkey: N69G4-B89J2-4G8F4-WWYCC-J464C /accepteula
 </code></pre><p>Windows Server 2019評估轉換為Windows Server 2019 Datacenter版本：</p><pre><code>dism /online /set-edition:ServerDatacenter /productkey:WMDGN-G9PQG-XVVXX-R3X43-63DFG /accepteula
-</code></pre><p><img src=" https://i.ibb.co/7bT9VSW/Virtual-Box-Server2019-13-08-2021-14-00-02.png" alt="         .png" title="                  .png"></p></div>
-        </div>
+</code></pre><p><img src="https://i.ibb.co/7bT9VSW/Virtual-Box-Server2019-13-08-2021-14-00-02.png" alt="         .png" title="                  .png"></p></div>
 
-
-這裡的ServerStandard就是我查出來的EDITION ID（注意你實際查出來是什麼就填寫什麼），ProductKey後面的序列號見附錄。
+這裡的ServerStandard就是我查出來的EDITION ID（注意你實際查出來是什麼就填寫什麼），ProductKey:序號
 
 3、重啟操作完成
+</code></pre><p><img src="https://i.ibb.co/2jp3Wy4/Virtual-Box-Server2019-13-08-2021-14-07-37.png" alt="         .png" title="                  .png"></p></div>
+
+
+
+
+
