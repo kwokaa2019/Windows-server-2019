@@ -6,6 +6,15 @@ Windows server 2019從評估板升級到完整版
       1、將評估版升級為標準版
 
       2、使用啟用工具啟用
+      
+      
+提示:
+
+詳細資訊，請參閱Micrsof 「將目前的評估版轉換為目前的零售版」參考文件
+
+https://docs.microsoft.com/zh-tw/windows-server/get-started/supported-upgrade-paths#converting-a-current-evaluation-version-to-a-current-retail-version 
+      
+      
 
 啟用過程：
 
@@ -32,9 +41,5 @@ Windows server 2019從評估板升級到完整版
 </code></pre><p><img src="https://i.ibb.co/2jp3Wy4/Virtual-Box-Server2019-13-08-2021-14-07-37.png" alt="         .png" title="                  .png"></p></div>
 
 
-提示
 
-如需要要詳細資訊，請參閱Micrsof 「將目前的評估版轉換為目前的零售版」參考文件
-
-https://docs.microsoft.com/zh-tw/windows-server/get-started/supported-upgrade-paths#converting-a-current-evaluation-version-to-a-current-retail-version
 
