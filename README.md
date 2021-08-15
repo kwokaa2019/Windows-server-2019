@@ -41,4 +41,5 @@ https://docs.microsoft.com/zh-tw/windows-server/get-started/supported-upgrade-pa
 
 
 有關KMS 大量授權認證部份，請參閱另一份文件
+
 https://docs.microsoft.com/en-us/windows-server/get-started-19/activation-19
