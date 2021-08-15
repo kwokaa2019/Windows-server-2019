@@ -8,7 +8,7 @@ Windows server 2019從評估板升級到完整版
       2、使用啟用工具啟用
       
       
-提示:請參閱Micrsof 「將目前的評估版轉換為目前的零售版」參考文件
+提示:請參閱Micrsoft 「將目前的評估版轉換為目前的零售版」參考文件
 
 https://docs.microsoft.com/zh-tw/windows-server/get-started/supported-upgrade-paths#converting-a-current-evaluation-version-to-a-current-retail-version 
       
@@ -40,6 +40,6 @@ https://docs.microsoft.com/zh-tw/windows-server/get-started/supported-upgrade-pa
 
 
 
-有關KMS 大量授權認證部份，請參閱另一份Micrsof文件
+有關KMS 大量授權認證部份，請參閱另一份Micrsoft文件
 
 https://docs.microsoft.com/en-us/windows-server/get-started-19/activation-19
